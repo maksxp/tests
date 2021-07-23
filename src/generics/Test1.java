@@ -1,10 +1,10 @@
-package test1;
+package generics;
 
 import java.util.*;
 
 public class Test1 extends TT{
     public void test (){
-        System.out.println("test1");
+        System.out.println("generics");
     }
     public static void  abc (){
         System.out.println("Test1");

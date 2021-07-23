@@ -1,3 +1,5 @@
+package factorial;
+
 class FactorialException extends Exception{
 
     private int number;

@@ -1,9 +1,14 @@
 package regex;
 
+
 import java.util.Arrays;
 
 public class StringMatchesSplit {
+
     public static void main(String[] args) {
+
+
+
         String s
                 = "Ivanov Vasiliy, Russia, Moscow, Lenin street, 51, Flat 48,"+
                 "email: vivanov@mail.ru, Postcode: AA99, Phone Number: +123456789;"+
@@ -19,3 +24,4 @@ public class StringMatchesSplit {
         System.out.println(Arrays.toString(array));
     }
 }
+
