@@ -4,7 +4,8 @@ public class Employee {
     public int id;
     public String name;
     public String department;
-    private double salary;
+//    private double salary;
+    private double salary=1000; //this options uses to show work of reflection with private fields
 
     public Employee() {
     }
@@ -15,20 +16,20 @@ public class Employee {
         this.department = department;
     }
 
-    public Employee(int id, String name, String department, double salary) {
-        this.id = id;
-        this.name = name;
-        this.department = department;
-        this.salary = salary;
-    }
+//    public Employee(int id, String name, String department, double salary) {
+//        this.id = id;
+//        this.name = name;
+//        this.department = department;
+//        this.salary = salary;
+//    }
 
-    public double getSalary() {
-        return salary;
-    }
+//    public double getSalary() {
+//        return salary;
+//    }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
+//    public void setSalary(double salary) {
+//        this.salary = salary;
+//    }
 
     private void changeDepartment (String newDepartment){
         this.department=newDepartment;
